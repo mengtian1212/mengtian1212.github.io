@@ -493,6 +493,7 @@ pre code {
 
 .project-text {
   width: 50%;
+  margin-left: 0.25em;
 }
 
 .row > .off-6 {
@@ -1464,6 +1465,22 @@ pre code {
 
   .row > .col-6-small {
     width: 50%;
+  }
+
+  .row > .col-6 {
+    width: 100%;
+    display: block;
+  }
+
+  .image.fit {
+    display: block;
+    margin: 0 0 2em 0;
+    width: 100% !important;
+  }
+
+  .project-text {
+    width: 100%;
+    margin-left: 0.25em;
   }
 
   .row > .off-6-small {
