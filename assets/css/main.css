@@ -2743,17 +2743,11 @@ input[type="button"]:disabled,
   background-color: #1f1815;
   background-attachment: scroll, scroll;
 
-  /* background-image: url("images/overlay.png"), url("../../images/bg4.jpg");
-  background-size: 50%, 250%; */
-
-  /* background-image: url("images/overlay.png"), url("../../images/bg13.jpg");
-  background-size: 120%, 200%; */
-
   background-image: url("images/overlay.png"), url("../../images/bg19.jpg");
   background-size: auto, 150%;
-  height: 100%;
+  height: 300%;
   padding: 8em 4em;
-  padding-bottom: 40em;
+  /* padding-bottom: 40em; */
 
   background-position: top left, top left;
   background-repeat: repeat, no-repeat;
@@ -2805,6 +2799,14 @@ input[type="button"]:disabled,
 #header .image.avatar {
   margin: 0 0 1em 0;
   width: 9.25em;
+}
+
+#header .icons {
+  margin: 4em 0 0 0;
+}
+
+#header .icons a {
+  color: rgba(255, 255, 255, 0.4);
 }
 
 /* Footer */
@@ -3155,11 +3157,15 @@ body.is-touch .poptrox-popup .closer {
   }
 
   #header {
-    background-size: auto, 250%;
-    height: 100%;
-    /* padding: 8em 4em; */
-    padding-bottom: 35em;
+    background-size: auto, 200%;
+    height: 300%;
+    padding: 8em 4em;
+    /* padding-bottom: 35em; */
   }
+
+  /* #footer {
+    display: none;
+  } */
 }
 
 /* Large */
@@ -3167,7 +3173,7 @@ body.is-touch .poptrox-popup .closer {
 @media screen and (max-width: 1280px) {
   /* Header */
   #header {
-    background-size: auto, 250%;
+    background-size: auto, 200%;
     height: 100%;
     padding: 6em 3em 40em 3em;
     width: 30%;
@@ -3186,10 +3192,14 @@ body.is-touch .poptrox-popup .closer {
   }
 
   /* Footer */
+  #footer {
+    display: none;
+  }
 
   #footer .copyright li {
     border-left-width: 0;
     display: block;
+
     line-height: 2.25em;
     margin-left: 0;
     padding-left: 0;
